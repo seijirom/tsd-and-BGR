@@ -1,0 +1,4 @@
+.include "./TT/bsim3v3n.mod"
+.include "./TT/bsim3v3p.mod"
+.include "TT/ndio.mod"
+.include "TT/pdio.mod"

@@ -1,0 +1,64 @@
+* Created by KLayout
+
+* cell bgr_simple
+.SUBCKT bgr_simple
+* net 1 R1
+* net 2 Vdd
+* net 7 Vout
+* net 12 R2
+* net 13 SUBSTRATE
+* device instance $36 r0 *1 -91,-175.5 RES
+R$36 13 4 26000
+* device instance $57 r0 *1 102,-96.5 RES
+R$57 7 86 1280
+* device instance $71 r0 *1 159.5,-96.5 RES
+R$71 85 13 28720
+* device instance $98 r0 *1 -43.5,-87.5 RES
+R$98 4 5 4000
+* device instance $101 r0 *1 -52.5,15.5 HRES
+R$101 2 8 1001000
+* device instance $105 r0 *1 -13,-80 NMOS
+M$105 7 9 9 13 NMOS L=1U W=160U AS=320P AD=320P PS=352U PD=352U
+* device instance $106 r0 *1 35,-80 NMOS
+M$106 6 9 9 13 NMOS L=1U W=80U AS=160P AD=160P PS=176U PD=176U
+* device instance $107 r0 *1 28,-45 NMOS
+M$107 10 9 9 13 NMOS L=1U W=80U AS=160P AD=160P PS=176U PD=176U
+* device instance $121 r0 *1 97.5,-6.5 D
+D$121 13 115 D A=1P P=4U
+* device instance $122 r0 *1 5,-13 D
+D$122 13 116 D A=1P P=4U
+* device instance $123 r0 *1 -9.5,50.5 PMOS
+M$123 2 9 113 2 PMOS L=1U W=20U AS=40P AD=40P PS=44U PD=44U
+* device instance $124 r0 *1 -6.5,16.5 PMOS
+M$124 113 9 9 2 PMOS L=1U W=20U AS=40P AD=40P PS=44U PD=44U
+* device instance $125 r0 *1 7.5,17 PMOS
+M$125 110 9 9 2 PMOS L=1U W=20U AS=40P AD=40P PS=44U PD=44U
+* device instance $126 r0 *1 88.5,50.5 PMOS
+M$126 2 9 11 2 PMOS L=1U W=40U AS=80P AD=80P PS=88U PD=88U
+* device instance $127 r0 *1 63.5,16 PMOS
+M$127 112 9 9 2 PMOS L=1U W=20U AS=40P AD=40P PS=44U PD=44U
+* device instance $128 r0 *1 49.5,16 PMOS
+M$128 114 9 9 2 PMOS L=1U W=20U AS=40P AD=40P PS=44U PD=44U
+* device instance $129 r0 *1 35.5,16 PMOS
+M$129 109 9 9 2 PMOS L=1U W=20U AS=40P AD=40P PS=44U PD=44U
+* device instance $130 r0 *1 4.5,50.5 PMOS
+M$130 2 9 110 2 PMOS L=1U W=20U AS=40P AD=40P PS=44U PD=44U
+* device instance $131 r0 *1 46.5,50.5 PMOS
+M$131 2 9 114 2 PMOS L=1U W=20U AS=40P AD=40P PS=44U PD=44U
+* device instance $132 r0 *1 60.5,50.5 PMOS
+M$132 2 9 112 2 PMOS L=1U W=20U AS=40P AD=40P PS=44U PD=44U
+* device instance $133 r0 *1 32.5,50.5 PMOS
+M$133 2 9 109 2 PMOS L=1U W=20U AS=40P AD=40P PS=44U PD=44U
+* device instance $135 r0 *1 77.5,16 PMOS
+M$135 11 9 9 2 PMOS L=1U W=40U AS=80P AD=80P PS=88U PD=88U
+* device instance $137 r0 *1 21.5,16.5 PMOS
+M$137 111 9 9 2 PMOS L=1U W=20U AS=40P AD=40P PS=44U PD=44U
+* device instance $138 r0 *1 18.5,50.5 PMOS
+M$138 2 9 111 2 PMOS L=1U W=20U AS=40P AD=40P PS=44U PD=44U
+* device instance $139 r180 *1 43,-208 PMOS
+M$139 13 13 13 13 PMOS L=1U W=40U AS=80P AD=80P PS=88U PD=88U
+* device instance $141 r180 *1 23.5,-162.5 PMOS
+M$141 10 10 10 5 PMOS L=1U W=160U AS=320P AD=320P PS=352U PD=352U
+* device instance $149 r180 *1 10,-162.5 PMOS
+M$149 6 6 6 4 PMOS L=1U W=20U AS=40P AD=40P PS=44U PD=44U
+.ENDS bgr_simple

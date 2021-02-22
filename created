@@ -1,0 +1,29 @@
+---
+comment: Created by ALB v2.0.7
+files:
+- models/OR1_mos.lib
+- models/BSIM3V3N.mod
+- models/BSIM3V3P.mod
+- models/start_time
+- models/PTS06_500+TT
+- models/PTS06_500+TT@27.0.alb
+- models/PTS06_500+TT@27.alb
+- models/TT/bsim3v3p.mod
+- models/TT/pdio.mod
+- models/TT/ndio.mod
+- models/TT/bsim3v3n.mod
+- models/OR1_mos
+- PMOS@PTS06LIB.asy
+- res.asc
+- res.asy
+- NMOS@PTS06LIB.asy
+- test3.asc
+- test3.asy
+- diode.asc
+- bgr8.asc
+- bgr8.asy
+- bgr8.lib
+- voltage.asc
+- voltage.asy
+- using.asc
+- using.lib

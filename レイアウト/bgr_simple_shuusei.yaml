@@ -1,0 +1,5 @@
+---
+target: bgr_simple_shuusei
+reference: bgr_simple_shuusei_reference.cir
+netlist: H:/Desktop/秋ゼミ/4810/bgr8.net
+schematic: H:/Desktop/秋ゼミ/4810/bgr8.asc
