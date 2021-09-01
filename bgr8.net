@@ -1,6 +1,6 @@
 * Z:\home\seijirom\work\2021_9\tsd-and-BGR\bgr8.asc
 
-.subckt bgr8 vin vout res1meg ext1meg R0 R1 R2 R3 vbg
+.subckt bgr8 vin vout res1meg ext1meg D R1 R2 R3 vbg
 M19 N006 vbg vin vin pch l=1u w=20u
 M17 N004 N001 vin vin pch l=1u w=20u
 M11 N002 N001 vin vin pch l=1u w=20u
@@ -65,7 +65,7 @@ M40 ext1meg vbg N008 vin pch l=1u w=20u
 M41 ext1meg vbg N009 vin pch l=1u w=20u
 M25 ext1meg ext1meg vout 0 nch l=1u w=20u
 M26 ext1meg ext1meg vout 0 nch l=1u w=20u
-R5 0 N023 1.6k
+R5 0 N023 {rhpo}
 D1 0 vbg D
 .param rhpo=4k
 .ends bgr8

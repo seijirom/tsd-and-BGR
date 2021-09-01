@@ -25,6 +25,7 @@ Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
 Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
+Ignoring empty pin current: Ix(x2:d)
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
 Gmin = 10
@@ -33,39 +34,15 @@ Gmin = 0.115292
 Gmin = 0.0123794
 Gmin = 0.00132923
 Gmin = 0.000142725
-vernier = 0.5
-vernier = 0.666667
-Gmin = 4.98766e-005
-vernier = 0.888888
-vernier = 1
-Gmin = 7.53781e-006
-vernier = 0.5
-vernier = 0.25
-vernier = 0.125
-vernier = 0.0625
-Gmin = 6.98527e-006
-vernier = 0.0833333
-Gmin = 5.80123e-006
-vernier = 0.111111
-vernier = 0.148148
-Gmin = 4.25547e-006
-vernier = 0.197531
-vernier = 0.263374
-Gmin = 2.60837e-006
-vernier = 0.351165
-Gmin = 1.21989e-006
-vernier = 0.46822
-vernier = 0.624294
-Gmin = 3.51506e-007
-vernier = 0.832392
-vernier = 1
-Gmin = 5.41413e-008
-Gmin = 5.81338e-009
-Gmin = 6.24207e-010
-Gmin = 6.70237e-011
-Gmin = 7.19662e-012
-Gmin = 7.72731e-013
-Gmin = 0
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+Gmin = 1.76685e-007
+Gmin = 1.89714e-008
+Gmin = 2.03704e-009
+Gmin = 2.18725e-010
+Gmin = 2.34854e-011
+Gmin = 2.52173e-012
+Gmin = 2.70769e-013
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
@@ -18753,31 +18730,6 @@ Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
 Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
-Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
-Starting Gmin stepping
-Gmin = 10
-Gmin = 1.07374
-Gmin = 0.115292
-Gmin = 0.0123794
-Gmin = 0.00132923
-Gmin = 0.000142725
-vernier = 0.5
-Gmin = 3.64963e-005
-vernier = 0.666667
-vernier = 0.888888
-Gmin = 7.04637e-006
-vernier = 1
-Gmin = 8.09366e-007
-Gmin = 8.6905e-008
-Gmin = 9.33136e-009
-Gmin = 1.00195e-009
-Gmin = 1.07583e-010
-Gmin = 1.15517e-011
-Gmin = 1.24035e-012
-Gmin = 1.33182e-013
-Gmin = 0
-Gmin stepping succeeded in finding the operating point.
-
 Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
 Warning: Pd = 0 is less than W.
@@ -24107,21 +24059,21 @@ Warning: Ps = 0 is less than W.
 Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
 
-Date: Wed Sep 01 10:14:49 2021
-Total elapsed time: 1.724 seconds.
+Date: Wed Sep 01 17:25:12 2021
+Total elapsed time: 2.706 seconds.
 
 tnom = 27
 temp = 150.1
 method = trap
-totiter = 5795
+totiter = 4538
 traniter = 0
 tranpoints = 0
 accept = 0
 rejected = 0
-matrix size = 49
+matrix size = 48
 fillins = 10
 solver = Normal
-Thread vector: 93.0/45.4[4] 0.0/0.0[0] 7.0/4.1[4] 0.3/253.5[1]  2592/500
-Matrix Compiler1: 5.21 KB object code size  3.5/2.0/[0.7]
-Matrix Compiler2: 5.18 KB object code size  1.5/2.0/[0.5]
+Thread vector: 264.6/226.2[2] 0.0/0.0[0] 6.0/5.5[1] 1.1/193.0[1]  2592/500
+Matrix Compiler1:     290 opcodes  3.1/2.2/[1.5]
+Matrix Compiler2: 5.11 KB object code size  1.5/3.0/[1.2]
 
