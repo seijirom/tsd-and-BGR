@@ -1,8 +1,8 @@
-* H:\desktop\Ëy¼0ß0\4810\test3.asc
+* Z:\home\seijirom\work\2021_9\tsd_and_BGR\test3.asc
 
 .subckt test3 Vin Vbgr tms A B
 M23 A Vbgr N008 Vin pch l=1u w=20u
-R6 A 0 20k
+R6 A 0 25k
 M29 B Vbgr N005 Vin pch l=1u w=20u
 M12 B B B 0 pch l=1u w=20u ad=400e_12 as=400e_12
 M33 N009 Vbgr N003 Vin pch l=1u w=20u
@@ -10,25 +10,23 @@ M14 N012 B N009 N009 pch l=1u w=20u
 M15 N011 A N009 N009 pch l=1u w=20u
 M16 N011 N012 0 0 nch l=1u w=20u
 M17 N012 N012 0 0 nch l=1u w=20u
-M37 N010 Vbgr N001 Vin pch l=1u w=20u
-M19 N010 N011 0 0 nch l=1u w=20u
-M20 tms N010 0 0 nch l=1u w=20u
 M21 N013 N011 0 0 nch l=1u w=100u
-R8 Vin tms 100k
 M22 N008 Vbgr Vin Vin pch l=1u w=20u
 M28 N005 Vbgr Vin Vin pch l=1u w=20u
 M32 N003 Vbgr Vin Vin pch l=1u w=20u
-M36 N001 Vbgr Vin Vin pch l=1u w=20u
-M35 N010 Vbgr N002 Vin pch l=1u w=20u
-M34 N002 Vbgr Vin Vin pch l=1u w=20u
 M31 N009 Vbgr N004 Vin pch l=1u w=20u
 M30 N004 Vbgr Vin Vin pch l=1u w=20u
 M27 B Vbgr N006 Vin pch l=1u w=20u
 M26 N006 Vbgr Vin Vin pch l=1u w=20u
 M25 A Vbgr N007 Vin pch l=1u w=20u
 M24 N007 Vbgr Vin Vin pch l=1u w=20u
-R7 A N013 100k
-.include "./models/OR1_mos"
+R7 A N013 75k
+M19 N010 N011 0 0 nch l=1u w=200u
+M1 N010 Vbgr N001 Vin pch l=1u w=20u
+M2 N001 Vbgr Vin Vin pch l=1u w=20u
+M3 N010 Vbgr N002 Vin pch l=1u w=20u
+M4 N002 Vbgr Vin Vin pch l=1u w=20u
+M5 tms N010 0 0 nch l=1u w=200u
+*.include "./models/OR1_mos"
 .ends test3
-
 

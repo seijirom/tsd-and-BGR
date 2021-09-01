@@ -1,5 +1,5 @@
 ---
 target: tsd_shuusei
 reference: tsd_shuusei_reference.cir
-netlist: H:/Desktop/秋ゼミ/4810/test3.net
-schematic: H:/Desktop/秋ゼミ/4810/test3.asc
+netlist: "/home/seijirom/work/2021_9/tsd-and-BGR/tsd_tb.net"
+schematic: "/home/seijirom/work/2021_9/tsd-and-BGR/tsd_tb.asc"

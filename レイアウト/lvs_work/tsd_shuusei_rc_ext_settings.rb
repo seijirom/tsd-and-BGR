@@ -1,5 +1,5 @@
 def rc_ext_settings
-  same_circuits 'tsd_2021', '.TOP'
+  same_circuits 'tsd_2021', 'TEST3'
   align
   same_device_classes 'HRES', 'RES'
   same_device_classes 'RES', 'RES'
