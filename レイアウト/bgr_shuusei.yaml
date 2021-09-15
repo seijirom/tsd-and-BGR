@@ -1,0 +1,5 @@
+---
+target: bgr_shuusei
+reference: bgr_shuusei_reference.cir
+netlist: "/home/seijirom/work/2021_9/tsd-and-BGR/tsd_tb.net"
+schematic: "/home/seijirom/work/2021_9/tsd-and-BGR/tsd_tb.asc"

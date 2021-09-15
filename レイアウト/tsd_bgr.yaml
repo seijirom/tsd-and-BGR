@@ -1,0 +1,5 @@
+---
+target: tsd_bgr
+reference: tsd_bgr_reference.cir
+netlist: "/home/seijirom/work/2021_9/tsd-and-BGR/tsd_tb_with_resistors.net"
+schematic: "/home/seijirom/work/2021_9/tsd-and-BGR/tsd_tb_with_resistors.asc"
